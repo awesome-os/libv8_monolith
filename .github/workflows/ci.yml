@@ -1,0 +1,19 @@
+name: CI — Ghost Dynamic libv8_monolith Verification (Zero 250MB Static Bloat)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  verify-ghost-v8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify Shared V8 Packs (Linux x64 & Win64) in Canonical O(1) Ghost CAS
+        run: |
+          node ghost-v8.mts --platform=linux-x64
+          node ghost-v8.mts --platform=win64 --verify
