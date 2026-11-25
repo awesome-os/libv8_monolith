@@ -1,0 +1,52 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/libv8_monolith",
+  "targets": [
+    "win64",
+    "linux-x64",
+    "linux-arm64",
+    "macos-arm64",
+    "wasm32-wasi"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/libv8_monolith/libv8_monolith-v0.2.1.tar.zst",
+      "kind": "object",
+      "version": "v0.2.1",
+      "target": "any",
+      "sha512": "6965b56d4b3849ecd762171907bf2edd4d0466c624ea5b310cbe6e05f18a76766692e5e4892e23a271d0280641be06a22d9d9896df7a19849d427844f42d674d",
+      "size": 3129,
+      "executable": false,
+      "blob": "v11/files/69/6965b56d4b3849ecd762171907bf2edd4d0466c624ea5b310cbe6e05f18a76766692e5e4892e23a271d0280641be06a22d9d9896df7a19849d427844f42d674d",
+      "url": "https://github.com/awesome-os/libv8_monolith/releases/download/v0.2.1/libv8_monolith-v0.2.1.tar.zst",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/libv8_monolith/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.1",
+      "target": "any",
+      "sha512": "d3710f0cfae16feeac75e4ead2d996a13e93f2d248d49e32077f6784c8f9ebad47456b47be935078ab071cb94d7ac6092262226426c88ece8e4b9da82394c5dd",
+      "size": 96,
+      "executable": false,
+      "blob": "v11/files/d3/d3710f0cfae16feeac75e4ead2d996a13e93f2d248d49e32077f6784c8f9ebad47456b47be935078ab071cb94d7ac6092262226426c88ece8e4b9da82394c5dd",
+      "url": "https://github.com/awesome-os/libv8_monolith/releases/download/v0.2.1/SHA256SUMS.txt",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/libv8_monolith/SHA512SUMS.txt",
+      "kind": "object",
+      "version": "v0.2.1",
+      "target": "any",
+      "sha512": "4c3c6d44494cf14254f33d60f56cf8b76aa55951878f04e072c90fa0860363aef368fce92ff108a665a016e347b24a6a4bff1076b98e7f3172df42f6700016be",
+      "size": 160,
+      "executable": false,
+      "blob": "v11/files/4c/4c3c6d44494cf14254f33d60f56cf8b76aa55951878f04e072c90fa0860363aef368fce92ff108a665a016e347b24a6a4bff1076b98e7f3172df42f6700016be",
+      "url": "https://github.com/awesome-os/libv8_monolith/releases/download/v0.2.1/SHA512SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
