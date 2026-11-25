@@ -31,3 +31,13 @@ node ghost-v8.mts --verify
 # Hydrate shared V8 + headers into Machine CAS in O(1) (zero 250MB monolith build)
 node ghost-v8.mts --verify
 ```
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/libv8_monolith@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/libv8_monolith?from=repository://github.com/awesome-os/libv8_monolith@main"
+```
