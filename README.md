@@ -1,3 +1,6 @@
+> [!NOTE]
+> Consolidated into https://github.com/awesome-os/chromium-baseline/tree/main/components/libv8_monolith
+
 # `awesome-os/libv8_monolith` — Holo `v11` Dynamic V8 Shim (Zero 250 MB Static Bloat)
 
 > **Replaces:** Legacy `250 MB+` static `libv8_monolith.a` tarballs historically required by `just-js/lo` and `just-js/just`.
