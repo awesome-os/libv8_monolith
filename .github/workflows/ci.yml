@@ -1,4 +1,4 @@
-name: CI — Ghost Dynamic libv8_monolith Verification (Zero 250MB Static Bloat)
+name: CI — Holo v11 Dynamic libv8_monolith Verification (V8 16+ Zero Static Bloat)
 
 on:
   push:
